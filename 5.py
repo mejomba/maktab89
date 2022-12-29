@@ -4,5 +4,4 @@ pattern = r'-'
 
 text = re.split(pattern, text)
 out = "-".join(text[::-1])
-
 print(out)
